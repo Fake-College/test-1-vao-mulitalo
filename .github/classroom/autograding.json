@@ -1,0 +1,14 @@
+{
+    "tests": [
+      {
+        "name": "Check for name output",
+        "setup": "pip install -r requirements.txt",
+        "run": "pytest ./tests/my_name.py -p no:warnings",
+        "input": "",
+        "output": "",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 10
+      }
+    ]
+  }
